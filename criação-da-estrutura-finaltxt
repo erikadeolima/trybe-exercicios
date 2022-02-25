@@ -1,0 +1,62 @@
+Last login: Fri Feb 25 11:26:58 on ttys000
+erika@Erikas-MBP ~ % cd documents
+erika@Erikas-MBP documents % mkdir trybe-exercicios
+erika@Erikas-MBP documents % cd trybe-exercicios 
+erika@Erikas-MBP trybe-exercicios % mkdir modulo-1-fundamentos
+erika@Erikas-MBP trybe-exercicios % cd modulo-1-fundamentos 
+erika@Erikas-MBP modulo-1-fundamentos % cd ..
+erika@Erikas-MBP trybe-exercicios % rm modulo-1-fundamentos 
+rm: modulo-1-fundamentos: is a directory
+erika@Erikas-MBP trybe-exercicios % rmdir modulo-1-fundamentos 
+erika@Erikas-MBP trybe-exercicios % mkdir mod-1-fundamentos-do-desenvolvimento-web
+erika@Erikas-MBP trybe-exercicios % cd mod-1-fundamentos-do-desenvolvimento-web
+erika@Erikas-MBP mod-1-fundamentos-do-desenvolvimento-web % mkdir blc-1-Unix-&-Bash
+[1] 1919
+zsh: command not found: -Bash
+[1]  + done       mkdir blc-1-Unix-
+erika@Erikas-MBP mod-1-fundamentos-do-desenvolvimento-web % mkdir blc-1-Unix-&-Bash
+[1] 1927
+zsh: command not found: -Bash
+mkdir: blc-1-Unix-: File exists                                                 
+[1]  + exit 1     mkdir blc-1-Unix-
+erika@Erikas-MBP mod-1-fundamentos-do-desenvolvimento-web % ls
+blc-1-Unix-
+erika@Erikas-MBP mod-1-fundamentos-do-desenvolvimento-web % rmdir blc-1-Unix- 
+erika@Erikas-MBP mod-1-fundamentos-do-desenvolvimento-web % ls
+erika@Erikas-MBP mod-1-fundamentos-do-desenvolvimento-web % mkdir blc-1-unix-e-bash
+erika@Erikas-MBP mod-1-fundamentos-do-desenvolvimento-web % cd blc-1-unix-e-bash
+erika@Erikas-MBP blc-1-unix-e-bash % mk dir dia-03-fund-dev-web dia-03-intro-unix-e-shell dia-03-unix-e-bash-parte-1 dia-04-unix-e-bash-parte-2
+zsh: command not found: mk
+erika@Erikas-MBP blc-1-unix-e-bash % mkdir dia-03-fund-dev-web dia-03-intro-unix-e-shell dia-03-unix-e-bash-parte-1 dia-04-unix-e-bash-parte-2 
+erika@Erikas-MBP blc-1-unix-e-bash % ls
+dia-03-fund-dev-web		dia-03-unix-e-bash-parte-1
+dia-03-intro-unix-e-shell	dia-04-unix-e-bash-parte-2
+erika@Erikas-MBP blc-1-unix-e-bash % cd ..
+erika@Erikas-MBP mod-1-fundamentos-do-desenvolvimento-web % mkdir blc-2-git-github-e-internet
+erika@Erikas-MBP mod-1-fundamentos-do-desenvolvimento-web % ls
+blc-1-unix-e-bash		blc-2-git-github-e-internet
+erika@Erikas-MBP mod-1-fundamentos-do-desenvolvimento-web % cd blc-2-git-github-e-internet
+erika@Erikas-MBP blc-2-git-github-e-internet % mkdir dia-01-git-e-github-o-que-é-e-para-que-serve dia-02-git-e-github-entendendo-os-comandos dia-03-internet-entendendo-como-funciona
+erika@Erikas-MBP blc-2-git-github-e-internet % ls
+dia-01-git-e-github-o-que-é-e-para-que-serve
+dia-02-git-e-github-entendendo-os-comandos
+dia-03-internet-entendendo-como-funciona
+erika@Erikas-MBP blc-2-git-github-e-internet % cd ..
+erika@Erikas-MBP mod-1-fundamentos-do-desenvolvimento-web % mkdir blc-3-introdução-html-e-css
+erika@Erikas-MBP mod-1-fundamentos-do-desenvolvimento-web % cd blc-3
+cd: no such file or directory: blc-3
+erika@Erikas-MBP mod-1-fundamentos-do-desenvolvimento-web % cd blc-3-introdução-html-e-css
+erika@Erikas-MBP blc-3-introdução-html-e-css % mkdir dia-01-introdução-html-e-css dia-01-estruturas-de-paginas dia-02-html-e-css-primeiros-passos-css dia-03-html-e-css-seletores-e-posicionamento dia-04-html-semântico dia-05-projeto-lessons-learned
+erika@Erikas-MBP blc-3-introdução-html-e-css % ls
+dia-01-estruturas-de-paginas
+dia-01-introdução-html-e-css
+dia-02-html-e-css-primeiros-passos-css
+dia-03-html-e-css-seletores-e-posicionamento
+dia-04-html-semântico
+dia-05-projeto-lessons-learned
+erika@Erikas-MBP blc-3-introdução-html-e-css % cd ...
+cd: no such file or directory: ...
+erika@Erikas-MBP blc-3-introdução-html-e-css % cd .. cd..
+cd: string not in pwd: ..
+erika@Erikas-MBP blc-3-introdução-html-e-css % cd .. 
+erika@Erikas-MBP mod-1-fundamentos-do-desenvolvimento-web % 
