@@ -1,0 +1,45 @@
+Last login: Fri Feb 25 16:36:42 on ttys000
+erika@Erikas-MacBook-Pro ~ % git log
+fatal: Not a git repository (or any of the parent directories): .git
+erika@Erikas-MacBook-Pro ~ % cd documents/trybe-exercicios
+erika@Erikas-MacBook-Pro trybe-exercicios % git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	mod-01-fundamentos-do-desenvolvimento-web/blc-02-git-github-e-internet/dia-01-git-e-github-o-que-é-e-para-que-serve/Parte-1-Instalação-e-configuração-parte-IV.txt
+	mod-01-fundamentos-do-desenvolvimento-web/blc-02-git-github-e-internet/dia-02-git-e-github-entendendo-os-comandos/parte-I-baixando-repositórios-com-o-git-clone.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+erika@Erikas-MacBook-Pro trybe-exercicios % git add .
+erika@Erikas-MacBook-Pro trybe-exercicios % git commit -m "Atualiza             erika@Erikas-MacBook-Pro trybe-exercicios % git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   mod-01-fundamentos-do-desenvolvimento-web/blc-02-git-github-e-internet/dia-01-git-e-github-o-que-é-e-para-que-serve/Parte-1-Instalação-e-configuração-parte-IV.txt
+	new file:   mod-01-fundamentos-do-desenvolvimento-web/blc-02-git-github-e-internet/dia-02-git-e-github-entendendo-os-comandos/parte-I-baixando-repositórios-com-o-git-clone.txt
+
+erika@Erikas-MacBook-Pro trybe-exercicios % git pull
+Enter passphrase for key '/Users/erika/.ssh/id_rsa': 
+From github.com:erikadeolima/trybe-exercicios
+ * [new branch]      branch-version-1 -> origin/branch-version-1
+Already up to date.
+erika@Erikas-MacBook-Pro trybe-exercicios % git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   mod-01-fundamentos-do-desenvolvimento-web/blc-02-git-github-e-internet/dia-01-git-e-github-o-que-é-e-para-que-serve/Parte-1-Instalação-e-configuração-parte-IV.txt
+	new file:   mod-01-fundamentos-do-desenvolvimento-web/blc-02-git-github-e-internet/dia-02-git-e-github-entendendo-os-comandos/parte-I-baixando-repositórios-com-o-git-clone.txt
+
+erika@Erikas-MacBook-Pro trybe-exercicios % git push
+Enter passphrase for key '/Users/erika/.ssh/id_rsa': 
+Everything up-to-date
+erika@Erikas-MacBook-Pro trybe-exercicios % 

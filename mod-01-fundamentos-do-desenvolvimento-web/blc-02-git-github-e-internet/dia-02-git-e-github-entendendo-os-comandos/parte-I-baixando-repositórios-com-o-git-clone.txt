@@ -1,0 +1,24 @@
+Last login: Fri Feb 25 16:35:44 on ttys000
+erika@Erikas-MacBook-Pro ~ % cd documents
+erika@Erikas-MacBook-Pro documents % mkdir trybe-exercicios-clone | git clone https://github.com/erikadeolima/trybe-exercicios
+fatal: destination path 'trybe-exercicios' already exists and is not an empty directory.
+erika@Erikas-MacBook-Pro documents % mkdir trybe-exercicios-clone | git clone https://github.com/erikadeolima/trybe-exercicios >> trybe-exercicios-clone
+zsh: is a directory: trybe-exercicios-clone
+mkdir: trybe-exercicios-clone: File exists
+erika@Erikas-MacBook-Pro documents % git clone https://github.com/erikadeolima/trybe-exercicios >> trybe-exercicios-clone
+zsh: is a directory: trybe-exercicios-clone
+erika@Erikas-MacBook-Pro documents % cd trybe-exercicios-clone
+erika@Erikas-MacBook-Pro trybe-exercicios-clone % git clone https://github.com/erikadeolima/trybe-exercicios                         
+Cloning into 'trybe-exercicios'...
+remote: Enumerating objects: 43, done.
+remote: Counting objects: 100% (43/43), done.
+remote: Compressing objects: 100% (34/34), done.
+remote: Total 43 (delta 7), reused 43 (delta 7), pack-reused 0
+Unpacking objects: 100% (43/43), done.
+erika@Erikas-MacBook-Pro trybe-exercicios-clone % cd ..
+erika@Erikas-MacBook-Pro documents % ls
+Install.pkg				trybe
+Prints					trybe-exercicios
+Tabela Fipe - corsa wind csp6566.pdf	trybe-exercicios-clone
+Zoom
+erika@Erikas-MacBook-Pro documents %  

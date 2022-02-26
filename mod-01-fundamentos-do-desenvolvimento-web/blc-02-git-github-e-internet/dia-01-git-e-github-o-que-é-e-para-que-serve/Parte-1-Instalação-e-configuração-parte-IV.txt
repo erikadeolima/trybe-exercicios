@@ -1,0 +1,146 @@
+Last login: Fri Feb 25 14:27:12 on ttys000
+erika@Erikas-MacBook-Pro ~ % cd documents/trybe-exercicios 
+erika@Erikas-MacBook-Pro trybe-exercicios % git init
+Initialized empty Git repository in /Users/erika/Documents/trybe-exercicios/.git/
+erika@Erikas-MacBook-Pro trybe-exercicios % git add .
+erika@Erikas-MacBook-Pro trybe-exercicios %  touch README.md
+erika@Erikas-MacBook-Pro trybe-exercicios % git add .
+erika@Erikas-MacBook-Pro trybe-exercicios % git commit -m "initial commit"
+[master (root-commit) 52e4493] initial commit
+ 29 files changed, 3568 insertions(+)
+ create mode 100644 README.md
+ create mode 100644 criação-da-estrutura-finaltxt
+ create mode 100644 mod-01-fundamentos-do-desenvolvimento-web/blc-01-unix-e-bash/Clone Dietorio GitHub
+ create mode 100644 mod-01-fundamentos-do-desenvolvimento-web/blc-01-unix-e-bash/dia-03-unix-e-bash-parte-1/Unix & Bash - Parte1 II.txt
+ create mode 100644 mod-01-fundamentos-do-desenvolvimento-web/blc-01-unix-e-bash/dia-03-unix-e-bash-parte-1/unix-&-Bash-Parte-1-I.txt
+ create mode 100644 mod-01-fundamentos-do-desenvolvimento-web/blc-01-unix-e-bash/dia-03-unix-e-bash-parte-1/unix-&-Bash-Parte-1-II.txt
+ create mode 100644 mod-01-fundamentos-do-desenvolvimento-web/blc-01-unix-e-bash/dia-04-unix-e-bash-parte-2/Unix-&-Bash-Parte-2-I.txt
+ create mode 100644 mod-01-fundamentos-do-desenvolvimento-web/blc-01-unix-e-bash/dia-04-unix-e-bash-parte-2/Unix-&-Bash-Parte-2-II.txt
+ create mode 100644 mod-01-fundamentos-do-desenvolvimento-web/blc-01-unix-e-bash/dia-04-unix-e-bash-parte-2/Unix-&-Bash-Parte-2-III.txt
+ create mode 100644 mod-01-fundamentos-do-desenvolvimento-web/blc-01-unix-e-bash/dia-04-unix-e-bash-parte-2/Unix-&-Bash-Parte-2-IV.txt
+ create mode 100644 mod-01-fundamentos-do-desenvolvimento-web/blc-01-unix-e-bash/dia-04-unix-e-bash-parte-2/Unix_Bash_Dia2
+ create mode 100644 mod-01-fundamentos-do-desenvolvimento-web/blc-01-unix-e-bash/trybe-skills.txt
+ create mode 100644 mod-01-fundamentos-do-desenvolvimento-web/blc-01-unix-e-bash/unix_tests/bunch_of_things.txt
+ create mode 100644 mod-01-fundamentos-do-desenvolvimento-web/blc-01-unix-e-bash/unix_tests/bunch_of_things_ordenado.txt
+ create mode 100644 mod-01-fundamentos-do-desenvolvimento-web/blc-01-unix-e-bash/unix_tests/countries.txt
+ create mode 100644 mod-01-fundamentos-do-desenvolvimento-web/blc-01-unix-e-bash/unix_tests/empty.pdf
+ create mode 100644 mod-01-fundamentos-do-desenvolvimento-web/blc-01-unix-e-bash/unix_tests/empty.tbt
+ create mode 100644 mod-01-fundamentos-do-desenvolvimento-web/blc-01-unix-e-bash/unix_tests/phrases.txt
+ create mode 100644 mod-01-fundamentos-do-desenvolvimento-web/blc-01-unix-e-bash/unix_tests/phrases2.txt
+ create mode 100644 mod-01-fundamentos-do-desenvolvimento-web/blc-01-unix-e-bash/unix_tests/skills2.txt
+ create mode 100644 mod-01-fundamentos-do-desenvolvimento-web/blc-01-unix-e-bash/unix_tests/top_skills.txt
+ create mode 100644 mod-01-fundamentos-do-desenvolvimento-web/blc-02-git-github-e-internet/Dinâmica-controle-de-versão/5_MOTIVOS_PARA_VOCE_APRENDER_JAVASCRIPT mesh palavras erika.txt
+ create mode 100644 mod-01-fundamentos-do-desenvolvimento-web/blc-02-git-github-e-internet/dia-01-git-e-github-o-que-é-e-para-que-serve/Parte-1-Instal-e-Config-Git.txt
+ create mode 100644 mod-01-fundamentos-do-desenvolvimento-web/blc-02-git-github-e-internet/dia-01-git-e-github-o-que-é-e-para-que-serve/Parte-1-Instalação-e-configuração-parte-II.txt
+ create mode 100644 mod-01-fundamentos-do-desenvolvimento-web/blc-02-git-github-e-internet/dia-01-git-e-github-o-que-é-e-para-que-serve/Parte-1-Instalação-e-configuração-parte-III.txt
+ create mode 100644 mod-01-fundamentos-do-desenvolvimento-web/blc-02-git-github-e-internet/dia-01-git-e-github-o-que-é-e-para-que-serve/UpLoad diretorio no GitHub.txt
+ create mode 100644 mod-01-fundamentos-do-desenvolvimento-web/blc-02-git-github-e-internet/dia-02-git-e-github-entendendo-os-comandos/Git-log-teste.txt
+ create mode 100644 mod-01-fundamentos-do-desenvolvimento-web/blc-02-git-github-e-internet/dia-02-git-e-github-entendendo-os-comandos/Gitignore-teste.txt
+ create mode 100644 mod-01-fundamentos-do-desenvolvimento-web/blc-03-introdução-html-e-css/Commit de organizacão dos diretórios.txt
+erika@Erikas-MacBook-Pro trybe-exercicios % git emote add origin "git@github.com:erikadeolima/trybe-exercicios.git"
+git: 'emote' is not a git command. See 'git --help'.
+
+The most similar command is
+	remote
+erika@Erikas-MacBook-Pro trybe-exercicios % git remote add origin "git@github.com:erikadeolima/trybe-exercicios.git"
+erika@Erikas-MacBook-Pro trybe-exercicios % git remote -v
+origin	git@github.com:erikadeolima/trybe-exercicios.git (fetch)
+origin	git@github.com:erikadeolima/trybe-exercicios.git (push)
+erika@Erikas-MacBook-Pro trybe-exercicios % git commit -m "Criação do repositório no GitHub" 
+On branch master
+nothing to commit, working tree clean
+erika@Erikas-MacBook-Pro trybe-exercicios % git push origin master
+Enter passphrase for key '/Users/erika/.ssh/id_rsa': 
+Enter passphrase for key '/Users/erika/.ssh/id_rsa': 
+Counting objects: 40, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (38/38), done.
+Writing objects: 100% (40/40), 31.50 KiB | 4.50 MiB/s, done.
+Total 40 (delta 6), reused 0 (delta 0)
+remote: Resolving deltas: 100% (6/6), done.
+To github.com:erikadeolima/trybe-exercicios.git
+ * [new branch]      master -> master
+erika@Erikas-MacBook-Pro trybe-exercicios % cat >> README.md
+                                                
+^Z
+zsh: suspended  cat >> README.md
+erika@Erikas-MacBook-Pro trybe-exercicios % cat > README.md
+A formação da Trybe é baseada no uso de metodologias ativas, ou seja, você aprenderá na prática, evoluindo com a mão na massa.
+currículo é construído com base no que o mercado de trabalho busca em profissionais de tecnologia.
+
+Domine as principais habilidades técnicas esperadas
+para desenvolvimento web: Javascript, Node, Git, HTML, Express.js, Python, CSS, SQL, ORM, React, NoSQL, Algoritimos e estrutura de dados.
+^Z
+zsh: suspended  cat > README.md
+erika@Erikas-MacBook-Pro trybe-exercicios % git add .
+erika@Erikas-MacBook-Pro trybe-exercicios % git commit -m "Insersão do README do portifólio"
+[master 4f3de73] Insersão do README do portifólio
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+erika@Erikas-MacBook-Pro trybe-exercicios % git astatus
+git: 'astatus' is not a git command. See 'git --help'.
+
+The most similar command is
+	status
+erika@Erikas-MacBook-Pro trybe-exercicios % git status
+On branch master
+nothing to commit, working tree clean
+erika@Erikas-MacBook-Pro trybe-exercicios % git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+erika@Erikas-MacBook-Pro trybe-exercicios % git push --u  
+error: unknown option `u'
+usage: git push [<options>] [<repository> [<refspec>...]]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --repo <repository>   repository
+    --all                 push all refs
+    --mirror              mirror all refs
+    -d, --delete          delete refs
+    --tags                push tags (can't be used with --all or --mirror)
+    -n, --dry-run         dry run
+    --porcelain           machine-readable output
+    -f, --force           force updates
+    --force-with-lease[=<refname>:<expect>]
+                          require old value of ref to be at this value
+    --recurse-submodules[=<check|on-demand|no>]
+                          control recursive pushing of submodules
+    --thin                use thin pack
+    --receive-pack <receive-pack>
+                          receive pack program
+    --exec <receive-pack>
+                          receive pack program
+    -u, --set-upstream    set upstream for git pull/status
+    --progress            force progress reporting
+    --prune               prune locally removed refs
+    --no-verify           bypass pre-push hook
+    --follow-tags         push missing but relevant tags
+    --signed[=<yes|no|if-asked>]
+                          GPG sign the push
+    --atomic              request atomic transaction on remote side
+    -o, --push-option <server-specific>
+                          option to transmit
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+
+erika@Erikas-MacBook-Pro trybe-exercicios % git push -u 
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+erika@Erikas-MacBook-Pro trybe-exercicios % git push --set-upstream origin master           
+Enter passphrase for key '/Users/erika/.ssh/id_rsa': 
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 434 bytes | 434.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:erikadeolima/trybe-exercicios.git
+   52e4493..4f3de73  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+erika@Erikas-MacBook-Pro trybe-exercicios % 
