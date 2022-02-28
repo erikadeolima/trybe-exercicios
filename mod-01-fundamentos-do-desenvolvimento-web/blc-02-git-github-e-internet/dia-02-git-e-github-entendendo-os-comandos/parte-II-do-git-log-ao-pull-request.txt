@@ -43,3 +43,336 @@ erika@Erikas-MacBook-Pro trybe-exercicios % git push
 Enter passphrase for key '/Users/erika/.ssh/id_rsa': 
 Everything up-to-date
 erika@Erikas-MacBook-Pro trybe-exercicios % 
+  
+
+Last login: Sat Feb 26 15:20:15 on console
+erika@Erikas-MacBook-Pro ~ % cd documents/trybe-exercicios/mod-01-fundamentos-do-desenvolvimento-web/blc-02-git-github-e-internet/Dinâmica-controle-de-versão 
+erika@Erikas-MacBook-Pro Dinâmica-controle-de-versão % cd  ..  
+erika@Erikas-MacBook-Pro blc-02-git-github-e-internet % cd ..
+erika@Erikas-MacBook-Pro mod-01-fundamentos-do-desenvolvimento-web % ls 
+blc-01-unix-e-bash			blc-03-introdução-html-e-css
+blc-02-git-github-e-internet
+erika@Erikas-MacBook-Pro mod-01-fundamentos-do-desenvolvimento-web % cd blc-01-unix-e-bash/trybe-skills.txt
+cd: not a directory: blc-01-unix-e-bash/trybe-skills.txt
+erika@Erikas-MacBook-Pro mod-01-fundamentos-do-desenvolvimento-web % cd blc-01-unix-e-bash/trybe-skills.txt
+cd: not a directory: blc-01-unix-e-bash/trybe-skills.txt
+erika@Erikas-MacBook-Pro mod-01-fundamentos-do-desenvolvimento-web % cd blc-01-unix-e-bash    
+erika@Erikas-MacBook-Pro blc-01-unix-e-bash % git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   ../blc-02-git-github-e-internet/dia-01-git-e-github-o-que-é-e-para-que-serve/Parte-1-Instalação-e-configuração-parte-IV.txt
+	new file:   ../blc-02-git-github-e-internet/dia-02-git-e-github-entendendo-os-comandos/parte-I-baixando-repositórios-com-o-git-clone.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	../blc-02-git-github-e-internet/Dinâmica-controle-de-versão/5-motivos-para-você- aprender-JavaScript!.txt
+	../blc-02-git-github-e-internet/dia-02-git-e-github-entendendo-os-comandos/parte-II-do-git-log-ao-pull-request.txt
+
+erika@Erikas-MacBook-Pro blc-01-unix-e-bash % git add .
+erika@Erikas-MacBook-Pro blc-01-unix-e-bash % git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   ../blc-02-git-github-e-internet/dia-01-git-e-github-o-que-é-e-para-que-serve/Parte-1-Instalação-e-configuração-parte-IV.txt
+	new file:   ../blc-02-git-github-e-internet/dia-02-git-e-github-entendendo-os-comandos/parte-I-baixando-repositórios-com-o-git-clone.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	../blc-02-git-github-e-internet/Dinâmica-controle-de-versão/5-motivos-para-você- aprender-JavaScript!.txt
+	../blc-02-git-github-e-internet/dia-02-git-e-github-entendendo-os-comandos/parte-II-do-git-log-ao-pull-request.txt
+
+erika@Erikas-MacBook-Pro blc-01-unix-e-bash % git add --all
+erika@Erikas-MacBook-Pro blc-01-unix-e-bash % git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   ../blc-02-git-github-e-internet/Dinâmica-controle-de-versão/5-motivos-para-você- aprender-JavaScript!.txt
+	new file:   ../blc-02-git-github-e-internet/dia-01-git-e-github-o-que-é-e-para-que-serve/Parte-1-Instalação-e-configuração-parte-IV.txt
+	new file:   ../blc-02-git-github-e-internet/dia-02-git-e-github-entendendo-os-comandos/parte-I-baixando-repositórios-com-o-git-clone.txt
+	new file:   ../blc-02-git-github-e-internet/dia-02-git-e-github-entendendo-os-comandos/parte-II-do-git-log-ao-pull-request.txt
+
+erika@Erikas-MacBook-Pro blc-01-unix-e-bash % git commit -m "Insersão de Arquivos txt com cod's"
+[master 03aa511] Insersão de Arquivos txt com cod's
+ 4 files changed, 239 insertions(+)
+ create mode 100644 mod-01-fundamentos-do-desenvolvimento-web/blc-02-git-github-e-internet/Dinâmica-controle-de-versão/5-motivos-para-você- aprender-JavaScript!.txt
+ create mode 100644 mod-01-fundamentos-do-desenvolvimento-web/blc-02-git-github-e-internet/dia-01-git-e-github-o-que-é-e-para-que-serve/Parte-1-Instalação-e-configuração-parte-IV.txt
+ create mode 100644 mod-01-fundamentos-do-desenvolvimento-web/blc-02-git-github-e-internet/dia-02-git-e-github-entendendo-os-comandos/parte-I-baixando-repositórios-com-o-git-clone.txt
+ create mode 100644 mod-01-fundamentos-do-desenvolvimento-web/blc-02-git-github-e-internet/dia-02-git-e-github-entendendo-os-comandos/parte-II-do-git-log-ao-pull-request.txt
+erika@Erikas-MacBook-Pro blc-01-unix-e-bash % git pull
+Enter passphrase for key '/Users/erika/.ssh/id_rsa': 
+Already up to date.
+erika@Erikas-MacBook-Pro blc-01-unix-e-bash % git push
+Enter passphrase for key '/Users/erika/.ssh/id_rsa': 
+Counting objects: 11, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (11/11), done.
+Writing objects: 100% (11/11), 4.68 KiB | 4.68 MiB/s, done.
+Total 11 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To github.com:erikadeolima/trybe-exercicios.git
+   4f3de73..03aa511  master -> master
+erika@Erikas-MacBook-Pro blc-01-unix-e-bash % git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+erika@Erikas-MacBook-Pro blc-01-unix-e-bash % ls -la
+total 40
+drwxr-xr-x  10 erika  staff   320 25 Fev 14:20 .
+drwxr-xr-x   6 erika  staff   192 25 Fev 14:20 ..
+-rw-r--r--@  1 erika  staff  8196 25 Fev 14:21 .DS_Store
+-rw-r--r--@  1 erika  staff   913 21 Fev 15:03 Clone Dietorio GitHub
+drwxr-xr-x   2 erika  staff    64 25 Fev 12:11 dia-03-fund-dev-web
+drwxr-xr-x   2 erika  staff    64 25 Fev 12:11 dia-03-intro-unix-e-shell
+drwxr-xr-x   5 erika  staff   160 25 Fev 14:21 dia-03-unix-e-bash-parte-1
+drwxr-xr-x   7 erika  staff   224 25 Fev 14:22 dia-04-unix-e-bash-parte-2
+-rw-r--r--   1 erika  staff    53 18 Fev 17:10 trybe-skills.txt
+drwxr-xr-x  11 erika  staff   352 21 Fev 11:55 unix_tests
+erika@Erikas-MacBook-Pro blc-01-unix-e-bash % pwd
+/Users/erika/documents/trybe-exercicios/mod-01-fundamentos-do-desenvolvimento-web/blc-01-unix-e-bash
+erika@Erikas-MacBook-Pro blc-01-unix-e-bash % cd ~/documents/trybe-exercicios
+erika@Erikas-MacBook-Pro trybe-exercicios % ls -la                         
+total 32
+drwxr-xr-x   7 erika  staff   224 25 Fev 15:43 .
+drwx------+ 11 erika  staff   352 25 Fev 16:38 ..
+-rw-r--r--@  1 erika  staff  6148 25 Fev 20:16 .DS_Store
+drwxr-xr-x  15 erika  staff   480 26 Fev 17:41 .git
+-rw-r--r--@  1 erika  staff   428 25 Fev 15:53 README.md
+-rw-r--r--@  1 erika  staff  3761 25 Fev 12:23 criação-da-estrutura-finaltxt
+drwxr-xr-x   6 erika  staff   192 25 Fev 14:20 mod-01-fundamentos-do-desenvolvimento-web
+erika@Erikas-MacBook-Pro trybe-exercicios % cd .git 
+erika@Erikas-MacBook-Pro .git % ls -la
+total 64
+drwxr-xr-x  15 erika  staff   480 26 Fev 17:41 .
+drwxr-xr-x   7 erika  staff   224 25 Fev 15:43 ..
+-rw-r--r--   1 erika  staff    36 26 Fev 17:39 COMMIT_EDITMSG
+-rw-r--r--   1 erika  staff   227 26 Fev 17:40 FETCH_HEAD
+-rw-r--r--   1 erika  staff    23 25 Fev 15:43 HEAD
+-rw-r--r--   1 erika  staff    41 26 Fev 17:40 ORIG_HEAD
+drwxr-xr-x   2 erika  staff    64 25 Fev 15:43 branches
+-rw-r--r--   1 erika  staff   318 25 Fev 15:56 config
+-rw-r--r--   1 erika  staff    73 25 Fev 15:43 description
+drwxr-xr-x  12 erika  staff   384 25 Fev 15:43 hooks
+-rw-r--r--   1 erika  staff  6502 26 Fev 17:39 index
+drwxr-xr-x   3 erika  staff    96 25 Fev 15:43 info
+drwxr-xr-x   4 erika  staff   128 25 Fev 15:45 logs
+drwxr-xr-x  54 erika  staff  1728 26 Fev 17:39 objects
+drwxr-xr-x   5 erika  staff   160 25 Fev 15:51 refs
+erika@Erikas-MacBook-Pro .git % nano index 
+erika@Erikas-MacBook-Pro .git % nano config 
+erika@Erikas-MacBook-Pro .git % git branch <trybe-skills-changes>
+zsh: parse error near `\n'
+erika@Erikas-MacBook-Pro .git % git branch *master
+zsh: no matches found: *master
+erika@Erikas-MacBook-Pro .git % cd ..             
+erika@Erikas-MacBook-Pro trybe-exercicios % cd mod-01-fundamentos-do-desenvolvimento-web 
+erika@Erikas-MacBook-Pro mod-01-fundamentos-do-desenvolvimento-web % cd blc-01-unix-e-bash 
+erika@Erikas-MacBook-Pro blc-01-unix-e-bash % git branch *master
+zsh: no matches found: *master
+erika@Erikas-MacBook-Pro blc-01-unix-e-bash % git branch * master
+usage: git branch [<options>] [-r | -a] [--merged | --no-merged]
+   or: git branch [<options>] [-l] [-f] <branch-name> [<start-point>]
+   or: git branch [<options>] [-r] (-d | -D) <branch-name>...
+   or: git branch [<options>] (-m | -M) [<old-branch>] <new-branch>
+   or: git branch [<options>] (-c | -C) [<old-branch>] <new-branch>
+   or: git branch [<options>] [-r | -a] [--points-at]
+   or: git branch [<options>] [-r | -a] [--format]
+
+Generic options
+    -v, --verbose         show hash and subject, give twice for upstream branch
+    -q, --quiet           suppress informational messages
+    -t, --track           set up tracking mode (see git-pull(1))
+    -u, --set-upstream-to <upstream>
+                          change the upstream info
+    --unset-upstream      Unset the upstream info
+    --color[=<when>]      use colored output
+    -r, --remotes         act on remote-tracking branches
+    --contains <commit>   print only branches that contain the commit
+    --no-contains <commit>
+                          print only branches that don't contain the commit
+    --abbrev[=<n>]        use <n> digits to display SHA-1s
+
+Specific git-branch actions:
+    -a, --all             list both remote-tracking and local branches
+    -d, --delete          delete fully merged branch
+    -D                    delete branch (even if not merged)
+    -m, --move            move/rename a branch and its reflog
+    -M                    move/rename a branch, even if target exists
+    -c, --copy            copy a branch and its reflog
+    -C                    copy a branch, even if target exists
+    --list                list branch names
+    -l, --create-reflog   create the branch's reflog
+    --edit-description    edit the description for the branch
+    -f, --force           force creation, move/rename, deletion
+    --merged <commit>     print only branches that are merged
+    --no-merged <commit>  print only branches that are not merged
+    --column[=<style>]    list branches in columns
+    --sort <key>          field name to sort on
+    --points-at <object>  print only branches of the object
+    -i, --ignore-case     sorting and filtering are case insensitive
+    --format <format>     format to use for the output
+
+erika@Erikas-MacBook-Pro blc-01-unix-e-bash % git branch -a      
+* master
+  remotes/origin/branch-version-1
+  remotes/origin/master
+erika@Erikas-MacBook-Pro blc-01-unix-e-bash % git branch trybe-skills-changes
+erika@Erikas-MacBook-Pro blc-01-unix-e-bash % git branch -a                  
+* master
+  trybe-skills-changes
+  remotes/origin/branch-version-1
+  remotes/origin/master
+erika@Erikas-MacBook-Pro blc-01-unix-e-bash % git checkout trybe-skills-changes
+Switched to branch 'trybe-skills-changes'
+erika@Erikas-MacBook-Pro blc-01-unix-e-bash % git branch -a
+  master
+* trybe-skills-changes
+  remotes/origin/branch-version-1
+  remotes/origin/master
+erika@Erikas-MacBook-Pro blc-01-unix-e-bash % cat >> trybe-skills.txt
+O que eu vou aprender na Trybe:
+
+- Unix
+- Bash
+- Git
+- HTML
+- CSS
+^Z
+zsh: suspended  cat >> trybe-skills.txt
+erika@Erikas-MacBook-Pro blc-01-unix-e-bash % git add -all
+error: did you mean `--all` (with two dashes ?)
+erika@Erikas-MacBook-Pro blc-01-unix-e-bash % git add --all
+erika@Erikas-MacBook-Pro blc-01-unix-e-bash % git commit -m "Atualiza as skills trybe no arquivo"
+[trybe-skills-changes bf3185c] Atualiza as skills trybe no arquivo
+ 1 file changed, 7 insertions(+)
+erika@Erikas-MacBook-Pro blc-01-unix-e-bash % git push -u origin trybe-skills-changes
+Enter passphrase for key '/Users/erika/.ssh/id_rsa': 
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 478 bytes | 478.00 KiB/s, done.
+Total 5 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+remote: 
+remote: Create a pull request for 'trybe-skills-changes' on GitHub by visiting:
+remote:      https://github.com/erikadeolima/trybe-exercicios/pull/new/trybe-skills-changes
+remote: 
+To github.com:erikadeolima/trybe-exercicios.git
+ * [new branch]      trybe-skills-changes -> trybe-skills-changes
+Branch 'trybe-skills-changes' set up to track remote branch 'trybe-skills-changes' from 'origin'.
+erika@Erikas-MacBook-Pro blc-01-unix-e-bash % 
+erika@Erikas-MacBook-Pro blc-01-unix-e-bash % 
+erika@Erikas-MacBook-Pro blc-01-unix-e-bash % 
+erika@Erikas-MacBook-Pro blc-01-unix-e-bash % 
+erika@Erikas-MacBook-Pro blc-01-unix-e-bash % 
+erika@Erikas-MacBook-Pro blc-01-unix-e-bash % 
+erika@Erikas-MacBook-Pro blc-01-unix-e-bash % 
+erika@Erikas-MacBook-Pro blc-01-unix-e-bash % 
+erika@Erikas-MacBook-Pro blc-01-unix-e-bash % exit
+zsh: you have suspended jobs.
+erika@Erikas-MacBook-Pro blc-01-unix-e-bash % 
+Last login: Sat Feb 26 21:53:46 on ttys000
+erika@Erikas-MacBook-Pro ~ % cd documents/trybe-exercicios                     
+erika@Erikas-MacBook-Pro trybe-exercicios % git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+erika@Erikas-MacBook-Pro trybe-exercicios % git branch
+* master
+  trybe-skills-changes
+erika@Erikas-MacBook-Pro trybe-exercicios % git branch trybe-skills-updates
+erika@Erikas-MacBook-Pro trybe-exercicios % git branch
+* master
+  trybe-skills-changes
+  trybe-skills-updates
+erika@Erikas-MacBook-Pro trybe-exercicios % git checkout trybe-skills-updates
+Switched to branch 'trybe-skills-updates'
+erika@Erikas-MacBook-Pro trybe-exercicios % ls -la
+total 32
+drwxr-xr-x   7 erika  staff   224 25 Fev 15:43 .
+drwx------+ 11 erika  staff   352 25 Fev 16:38 ..
+-rw-r--r--@  1 erika  staff  6148 25 Fev 20:16 .DS_Store
+drwxr-xr-x  15 erika  staff   480 28 Fev 11:12 .git
+-rw-r--r--@  1 erika  staff   428 25 Fev 15:53 README.md
+-rw-r--r--@  1 erika  staff  3761 25 Fev 12:23 criação-da-estrutura-finaltxt
+drwxr-xr-x   6 erika  staff   192 25 Fev 14:20 mod-01-fundamentos-do-desenvolvimento-web
+erika@Erikas-MacBook-Pro trybe-exercicios % ls
+README.md
+criação-da-estrutura-finaltxt
+mod-01-fundamentos-do-desenvolvimento-web
+erika@Erikas-MacBook-Pro trybe-exercicios % cd mod-01-fundamentos-do-desenvolvimento-web
+erika@Erikas-MacBook-Pro mod-01-fundamentos-do-desenvolvimento-web % ls
+blc-01-unix-e-bash			blc-03-introdução-html-e-css
+blc-02-git-github-e-internet
+erika@Erikas-MacBook-Pro mod-01-fundamentos-do-desenvolvimento-web % cd blc-01-unix-e-bash
+erika@Erikas-MacBook-Pro blc-01-unix-e-bash % ls
+Clone Dietorio GitHub		dia-04-unix-e-bash-parte-2
+dia-03-fund-dev-web		trybe-skills.txt
+dia-03-intro-unix-e-shell	unix_tests
+dia-03-unix-e-bash-parte-1
+erika@Erikas-MacBook-Pro blc-01-unix-e-bash % cat >> trybe-skills.txt
+O que eu vou aprender na trybe:
+
+-Unix
+-Bash
+-Git
+-HTML
+-CSS
+-JavaScript
+^C
+erika@Erikas-MacBook-Pro blc-01-unix-e-bash % git add trybe-skills.txt 
+erika@Erikas-MacBook-Pro blc-01-unix-e-bash % git commit -m "Criando uma nova branch e adicionando arquivos atualizados nela"
+[trybe-skills-updates 552ce48] Criando uma nova branch e adicionando arquivos atualizados nela
+ 1 file changed, 8 insertions(+)
+erika@Erikas-MacBook-Pro blc-01-unix-e-bash % git push all
+fatal: 'all' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+erika@Erikas-MacBook-Pro blc-01-unix-e-bash % git push
+fatal: The current branch trybe-skills-updates has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin trybe-skills-updates
+
+erika@Erikas-MacBook-Pro blc-01-unix-e-bash % git push -u
+fatal: The current branch trybe-skills-updates has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin trybe-skills-updates
+
+erika@Erikas-MacBook-Pro blc-01-unix-e-bash % git push --set-upstream origin trybe-skills-updates
+Enter passphrase for key '/Users/erika/.ssh/id_rsa': 
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 511 bytes | 511.00 KiB/s, done.
+Total 5 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+remote: 
+remote: Create a pull request for 'trybe-skills-updates' on GitHub by visiting:
+remote:      https://github.com/erikadeolima/trybe-exercicios/pull/new/trybe-skills-updates
+remote: 
+To github.com:erikadeolima/trybe-exercicios.git
+ * [new branch]      trybe-skills-updates -> trybe-skills-updates
+Branch 'trybe-skills-updates' set up to track remote branch 'trybe-skills-updates' from 'origin'.
+erika@Erikas-MacBook-Pro blc-01-unix-e-bash % git push
+Enter passphrase for key '/Users/erika/.ssh/id_rsa': 
+Everything up-to-date
+erika@Erikas-MacBook-Pro blc-01-unix-e-bash % 
+erika@Erikas-MacBook-Pro blc-01-unix-e-bash % 
+erika@Erikas-MacBook-Pro blc-01-unix-e-bash % history cat >> /Users/erika/Documents/trybe-exercicios/mod-01-fundamentos-do-desenvolvimento-web/blc-02-git-github-e-internet/dia-02-git-e-github-entendendo-os-comandos/parte-II-do-git-log-ao-pull-request.txt
+erika@Erikas-MacBook-Pro blc-01-unix-e-bash % history cat >> /Users/erika/Documents/trybe-exercicios/mod-01-fundamentos-do-desenvolvimento-web/blc-02-git-github-e-internet/dia-02-git-e-github-entendendo-os-comandos/parte-II-do-git-log-ao-pull-request.txt
+erika@Erikas-MacBook-Pro blc-01-unix-e-bash % 
